@@ -1,0 +1,40 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "UI1 PHP Docs",
+    "description": "Extensión de la Documentación de PHP de UI1.es",
+    "developer_name": "manuel.palanco@ui1.es",
+    "icon": "images/icon_ui1.png",
+    "preferences": [
+        {
+            "id": "php_kw",
+            "type": "keyword",
+            "name": "Búsqueda en PHP Docs",
+            "description": "Palabra Clave para iniciar la búsqueda en la Documentación de PHP",
+            "default_value": "php"
+        },
+        {
+            "id": "php_lang",
+            "type": "select",
+            "name": "Idioma de la Documentación",
+            "options": [
+                {
+                    "value": "en",
+                    "text": "English"
+                },
+                {
+                    "value": "es",
+                    "text": "Español"
+                }
+            ],
+            "description": "Idioma a usar en PHP.net",
+            "default_value": "es"
+        },
+        {
+            "id": "php_max_items",
+            "type": "input",
+            "name": "Cantidad Máxima de Resultados",
+            "description": "Indica la cantidad máxima de resultados coincidentes en la búsqueda.",
+            "default_value": 40
+        }
+    ]
+}
